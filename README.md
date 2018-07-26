@@ -49,25 +49,25 @@ Comment JSON model:
 * If a thread has a cover image, it is saved on: `/threads/{thread_id}/images/{comment_id}.png`
 
 ### Configuration
-Available settings:
-**DROPBOX_TOKEN**
-Dropbox App token that will be used.
-You will need to register a new app in the [Dropbox App Console](https://www.dropbox.com/developers/apps) to get a token.
+Available settings:  
+**DROPBOX_TOKEN**  
+Dropbox App token that will be used.  
+You will need to register a new app in the [Dropbox App Console](https://www.dropbox.com/developers/apps) to get a token.  
 
-**THREADS_JSON_PATH (='/threads.json')**
-Specifies the JSON file path that store the threads information.
+**THREADS_JSON_PATH (='/threads.json')**  
+Specifies the JSON file path that store the threads information.  
 
-**THREAD_IMAGE_PATH (='/threads/{thread_id}/cover.png')**
-Specifies the path of the thread cover images.
-`{thread_id}` replacement string must be a part of the provided string.
+**THREAD_IMAGE_PATH (='/threads/{thread_id}/cover.png')**  
+Specifies the path of the thread cover images.  
+`{thread_id}` replacement string must be a part of the provided string.  
 
-**COMMENTS_JSON_PATH (='/threads/{thread_id}/comments.json')**
-Specifies the JSON file path that store the comments information.
-`{thread_id}` replacement string must be a part of the provided string.
+**COMMENTS_JSON_PATH (='/threads/{thread_id}/comments.json')**  
+Specifies the JSON file path that store the comments information.  
+`{thread_id}` replacement string must be a part of the provided string.  
 
-**COMMENT_IMAGE_PATH (='/threads/{thread_id}/images/{comment_id}.png')**
-Specifies the path of the comment cover images.
-`{thread_id}` and `{comment_id}` replacement strings must be a part of the provided string.
+**COMMENT_IMAGE_PATH (='/threads/{thread_id}/images/{comment_id}.png')**  
+Specifies the path of the comment cover images.  
+`{thread_id}` and `{comment_id}` replacement strings must be a part of the provided string.  
 
 ### Authors
 * [Peter Bassem Sobhi](https://github.com/petersobhi)
