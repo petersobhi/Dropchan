@@ -1,0 +1,22 @@
+.thread-title{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   max-height: 80px;
+}
+
+
+.thread-desc{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   max-height: 155px;
+}
+
+
+@media (min-width: 720px)
+{
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
