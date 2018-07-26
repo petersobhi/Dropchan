@@ -22,6 +22,8 @@ An anonymous board created by Django and Dropbox without any use of databases.
 `source ~/.virtualenvs/dropchan/bin/activate`
 4. Install requirements in the virtual environment:  
 `pip3 install -r requirements.txt`
+5. Run the project:  
+`python manage.py runserver`
 
 ### Dropbox structure:
 The system contains of 2 main models: `Thread` and `Comment`.
