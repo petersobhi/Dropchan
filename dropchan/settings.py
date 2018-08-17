@@ -114,11 +114,9 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 
-# Dropbox
-DROPBOX_TOKEN = 'an4p_k2WzJAAAAAAAAABL8SPHSOJ5wvOFihd7n5PNKpqCPGPLIQ1lomEmAp_3KzH'
 
-# In production should use this:
-# DROPBOX_TOKEN = os.environ.get('DROPBOX_TOKEN', '')
+# Dropbox integration:
+DROPBOX_TOKEN = os.environ.get('DROPBOX_TOKEN', '')
 
 
 # Dropbox file structure for threads:
